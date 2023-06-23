@@ -1,0 +1,97 @@
+<!DocType HTML>
+<html> 
+	<head>
+		<head>
+			<title> Attributes</title>
+			<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<style>
+				h1{color:red}
+			</style>
+		</head>
+		<body bgcolor=skyblue>
+			<section> 
+				<div> 
+					<h1>1.figure tag</h1>					
+					<figure>
+						<img src="images/redrose.jpg"width="50%"height="300">
+						<figcaption> figure.1 </figcaption>
+						<p>*figure tag is used for put figure and caption</p>
+						<p>*It leave few space before image</p>
+					</figure>
+				</div>
+					<h1>2.picture tag</h1>
+					<picture>
+						<source media="(min-width:300px)"src="images/mountain.jpg">
+						<source media="(min-width:600px)"src="images/mountain.jpg">
+						<img src="images/mountain.jpg">
+					</picture>
+				</div>
+				<div>
+					<h1>3.audio tag</h1>
+					<audio controls loop>
+						<source src="audio/carnival.mp3"type="audio/mp3">
+						<source src="audio/carnival.mp4"type="audio/mp4">
+						<source src="audio/carnival.ogg"type="audio/ogg">
+					</audio>
+					<p> Audio tag is used for insert audio</p>
+				</div>
+				<div>
+					<h1>4.video tag</h1>
+					<video controls loop width="10%" height="200px">
+						<source src="video/reshmi.mov" type="video/mov">
+						<source src="video/reshmi.mp4" type="video/mp4">
+						<source src="video/reshmi.mp3" type="video/mp3">
+					</video>
+					<p>video tag is used for insert video</p>
+				</div>
+				<div>
+					<h1>5.embed tag</h1>
+					<embed src="audio/carnival.mp3"type="audio/mp3"><br>
+					<embed  src="video/reshmi.mp4"type="video/mp4"><br>
+					<embed src="images/barbie.jpg" width="30%" height="300px"> 
+					<p>Embed tag is used for insert audio,video,image.</p>
+				</div>
+				<div>
+					<h1>6.iframe tag</h1>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31527.368209284843!2d77.39533390255116!3d8.97941462909752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b042783f161560f%3A0xaaf9292d94be27c9!2sSurandai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1686746784453!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"name="my frame"frameborder="0">
+					</iframe><br>
+					<iframe src="https://www.fabevy.com/"name="map"height="500px"width"50%">
+					</iframe><br>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31527.368209284843!2d77.39533390255116!3d8.97941462909752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b042783f161560f%3A0xaaf9292d94be27c9!2sSurandai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1686746784453!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"name="my frame"frameborder="0"></iframe>
+					<a href="https://www.fabevy.com/" target="resh"> website </a>
+					<p>iframe is mainly used  for insert map location</p>
+				</div>
+			<section>
+				<div>
+					<h1>7.button tag</h1> 
+					<button> 
+						touch me
+					</button><br>
+					<p> button tag is used for show buttons</p>
+					<h1>8.button tag and disabled attribute</h1>
+					<button disabled>
+						touch me
+					</button><br>
+					<p> button tag and disabled attribute is used for disable the buttton</p>
+					<h1>8.meter tag</h1>
+					<meter min="0" max="100" value="70"> 50%</meter><br>
+					<meter min="0" max="100"></meter>
+					<p>meter tag is used for showing downloding bar and it is small in size compared to progress</p>
+					<h1>9.progress tag</h1>
+					<label for="re"> bar: </label>
+					<progress id="re" min="0" max="100" value="70"> 50%</progress><br>
+					<label for="ra"> progress bar : </label>
+					<progress id="ra" min="0" max="100"> 30%</progress><br>
+					<p>progress tag is used for showing downloding bar</p>
+					<h1>10.abbreviation tag and title attribute</h1>
+					<abbr title="Hyper Text Markup Language"> HTML </abbr>
+					<p>abbr tag and tittle attribute is used for showing abbreviation or info about that word</p>
+				</div>
+				<div>
+					<h1>11.dialog tag</h1>
+					<dialog open> this is a box</dialog>
+				</div>
+		</body>
+	</head>
+</html>
